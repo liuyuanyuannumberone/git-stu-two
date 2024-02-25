@@ -1,4 +1,3 @@
 # README
 
-test
-2
+学习
