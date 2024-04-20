@@ -2,8 +2,8 @@
   <div class="child-two">
      <div class="dv" :style="{ backgroundColor: bgColorStyle, border: borderStyle }" id="dv">测试
     </div>
-    <div class="dv" :style="styleObj"></div>
-    <div class="dv" :style="[styleObj]"></div>
+    <div class="dv" :style="styleObj1"></div>
+    <div class="dv" :style="[styleObj]1"></div>
   </div>
 </template>
 
