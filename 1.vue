@@ -1,6 +1,7 @@
 <template>
   <div class="child-two">
-    <div class="dv" :style="{ backgroundColor: bgColorStyle, border: borderStyle }"></div>
+     <div class="dv" :style="{ backgroundColor: bgColorStyle, border: borderStyle }" id="dv">测试
+    </div>
     <div class="dv" :style="styleObj"></div>
     <div class="dv" :style="[styleObj]"></div>
   </div>
@@ -26,12 +27,15 @@ export default {
 
 <style lang="less" scoped>
 .child-two {
-  margin-left: 20px;
+  margin-left: 22px;
   .dv {
     width: 100px;
     height: 100px;
     background-color: #eee;
     margin-bottom: 10px;
+    .css{
+     font-size:12px;
+    }
   }
 }
 </style>
